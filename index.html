@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="success">
+        <p>successful Login</p>
+    </div>
+
+    <form id="container" onsubmit="handlesubmit()">
+        <label for="username">Username</label>
+        <input type="text" name="username" required />
+        <label for="password">password</label>
+        <input type="password" name="password" required />
+
+        <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <div class="failure">
+        <p>Invalid details</p>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
